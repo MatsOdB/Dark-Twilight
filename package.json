@@ -5,6 +5,10 @@
 	"version": "0.0.1",
 	"publisher": "MatsOdB",
 	"icon": "https://github.com/MatsOdB/Dark-Twilight/blob/main/pluginIcon.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MatsOdB/Dark-Twilight"
+	},
 	"engines": {
 		"vscode": "^1.49.0"
 	},
