@@ -2,7 +2,7 @@
 	"name": "dark-twilight",
 	"displayName": "Dark Twilight",
 	"description": "This is a beautiful syntax highlighting theme for vscode.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "MatsOdB",
 	"icon": "images/pluginIcon.png",
 	"repository": {
