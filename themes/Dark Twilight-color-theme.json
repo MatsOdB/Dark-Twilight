@@ -1,0 +1,425 @@
+{
+  "name": "Dark Twilight",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1E1E1E",
+    "editor.foreground": "#B2B2B2",
+    "activityBarBadge.background": "#007acc",
+    "sideBarTitle.foreground": "#bbbbbb",
+    "editorError.foreground": "#850000",
+    "editorWarning.foreground": "#ffd000",
+    "debugConsole.errorForeground": "#850000",
+    "debugConsole.warningForeground": "#ffd000",
+    "debugConsoleInputIcon.foreground": "#d181ff",
+    "debugConsole.infoForeground": "#66d9ee",
+  },
+  "tokenColors": [
+    // GLOBAL
+
+    {
+      "name": "Keyword and misc",
+      "scope": [
+        "keyword",
+        "meta.definition.class",
+        "keyword.other.import",
+        "constant.language",
+        "storage.modifier",
+        "punctuation.separator.element.python",
+        "punctuation.separator.arguments.python"
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string",
+        "punctuation.definition.string.begin.java",
+        "punctuation.definition.string.end.java"
+      ],
+      "settings": {
+        "foreground": "#74E6CF"
+      }
+    },
+    {
+      "name": "Regexp string",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#f7ff82"
+      }
+    },
+    {
+      "name": "Escape character",
+      "scope": [
+        "constant.character.escape"
+      ],
+      "settings": {
+        "foreground": "#f155ff"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#d181ff"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {
+        "foreground": "#626262"
+      }
+    },
+
+    // JAVA SPECIFIC
+
+    {
+      "name": "Primitive data type",
+      "scope": [
+        "storage.type.primitive.java",
+        "storage.type.primitive.array.java"
+      ],
+      "settings": {
+        "foreground": "#8deec1"
+      }
+    },
+
+    {
+      "name": "Identifier",
+      "scope": [
+        "variable.other.definition.java",
+        "meta.definition.variable.java"
+      ],
+      "settings": {
+        "foreground": "#F6F6F6"
+      }
+    },
+    {
+      "name": "Import modifier",
+      "scope": ["storage.modifier.import.java"],
+      "settings": {
+        "foreground": "#F6F6F6"
+      }
+    },
+
+    {
+      "name": "Dot, Comma, Semicolon",
+      "scope": [
+        "punctuation.terminator",
+        "punctuation.separator.period",
+        "punctuation.separator.delimiter"
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Braces, Parentheses, Brackets",
+      "scope": [
+        "punctuation.definition.parameters.end.bracket.curly",
+        "punctuation.definition.parameters.end.bracket.round",
+        "punctuation.definition.parameters.begin.bracket.curly",
+        "punctuation.definition.parameters.begin.bracket.round",
+        "punctuation.bracket.square"
+      ],
+      "settings": {
+        "foreground": "#F9FAF4"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": ["entity.name.type.class.java"],
+      "settings": {
+        "foreground": "#ADE637"
+      }
+    },
+    {
+      "name": "Method name",
+      "scope": ["meta.method.identifier.java"],
+      "settings": {
+        "foreground": "#ADE637"
+      }
+    },
+    {
+      "name": "Object variable",
+      "scope": ["variable.other.object.java"],
+      "settings": {
+        "foreground": "#66D9EE"
+      }
+    },
+    {
+      "name": "Object variable property",
+      "scope": ["variable.other.object.property.java"],
+      "settings": {
+        "foreground": "#B2B2B2"
+      }
+    },
+    {
+      "name": "Method call",
+      "scope": ["meta.function-call.java"],
+      "settings": {
+        "foreground": "#B2B2B2"
+      }
+    },
+    {
+      "name": "Function parameter",
+      "scope": ["variable.parameter.java"],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+    {
+      "name": "Data type",
+      "scope": ["storage.type.java", "storage.type.object.array.java"],
+      "settings": {
+        "foreground": "#8deec1"
+      }
+    },
+    {
+      "name": "Annotation",
+      "scope": ["storage.type.annotation.java"],
+      "settings": {
+        "foreground": "#9600db"
+      }
+    },
+
+    // JAVASCRIPT SPECIFIC
+    {
+      "name": "Keyword and misc",
+      "scope": [
+        "keyword.operator.expression.typeof.js",
+        "keword.operator.new.js"
+      ],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": ["storage.type.js", "storage.type.function.js"],
+      "settings": {
+        "foreground": "#8deec1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": ["entity.name.function.js"],
+      "settings": {
+        "foreground": "#ADE637"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": [
+        "constant.language.boolean.false.js",
+        "constant.language.boolean.true.js",
+        "constant.language.null.js",
+        "constant.language.undefined.js"
+      ],
+      "settings": {
+        "foreground": "#D181FF"
+      }
+    },
+    {
+      "name": "Object variable & support class",
+      "scope": ["variable.other.object.js", "support.class.js"],
+      "settings": {
+        "foreground": "#66D9EE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Support variable",
+      "scope": ["support.variable.property.js"],
+      "settings": {
+        "foreground": "#66D9EE"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": ["variable.parameter.js"],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+
+    // C++ SPECIFIC
+
+    {
+      "name": "Data type",
+      "scope": ["storage.type.built-in.primitive.cpp"],
+      "settings": {
+        "foreground": "#66D9EE",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": [
+        "entity.name.function.definition.cpp",
+        "entity.name.scope-resolution.function.definition.cpp",
+        "entity.name.type.constructor.cpp",
+        "entity.name.definition.special.constructor.cpp"
+      ],
+      "settings": {
+        "foreground": "#ADE637"
+      }
+    },
+    {
+      "name": "Function member",
+      "scope": ["entity.name.function.member.cpp"],
+      "settings": {
+        "foreground": "#f39aff"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["entity.name.function.call.cpp"],
+      "settings": {
+        "foreground": "#8DEEC1"
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter.cpp",
+        "entity.name.type.parameter.cpp",
+        "meta.parameter.initialization.cpp"
+      ],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+
+    // PYTHON SPECIFIC
+    
+    {
+      "name": "Keywords",
+      "scope": [
+        "storage.type.class.python",
+        "storage.type.function.python"
+      ],
+      "settings": {
+        "foreground": "#F92672",
+      }
+    },
+    {
+      "name": "Class/function name",
+      "scope": [
+        "entity.name.type.class.python",
+        "entity.name.function.python"
+      ],
+      "settings": {
+        "foreground": "#ADE637",
+      }
+    },
+    {
+      "name": "Self",
+      "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self"
+      ],
+      "settings": {
+        "foreground": "#a266c5",
+      }
+    },
+    {
+      "name": "Parameter",
+      "scope": [
+        "variable.parameter.function.language.python"
+      ],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": ["meta.function-call.python"],
+      "settings": {
+        "foreground": "#B2B2B2"
+      }
+    },
+    {
+      "name": "Function call arguments",
+      "scope": ["meta.function-call.arguments.python"],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+    {
+      "name": "Attribute",
+      "scope": [
+        "meta.attribute.python"
+      ],
+      "settings": {
+        "foreground": "#F6F6F6",
+      }
+    },
+
+    // DART SPECIFIC
+
+    {
+      "name": "Class",
+      "scope": ["support.class.dart"],
+      "settings": {
+        "foreground": "#2b87ff"
+      }
+    },
+    {
+      "name": "Annotation",
+      "scope": ["storage.type.annotion.dart"],
+      "settings": {
+        "foreground": "#006eff",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Colon",
+      "scope": ["keyword.operator.ternary.dart"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Default",
+      "scope": ["source.dart"],
+      "settings": {
+        "foreground": "#FE9720"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function.dart"],
+      "settings": {
+        "foreground": "#ADE637"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric.dart"],
+      "settings": {
+        "foreground": "#00f7ff"
+      }
+    },
+
+    // JSON SPECIFIC
+
+    {
+      "name": "JSON property name",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#f7ff82"
+      }
+    }
+  ]
+}

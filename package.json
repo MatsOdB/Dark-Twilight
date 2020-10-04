@@ -1,0 +1,28 @@
+{
+	"name": "dark-twilight",
+	"displayName": "Dark Twilight",
+	"description": "This is a beautiful syntax highlighting theme for vscode.",
+	"version": "0.0.1",
+	"publisher": "MatsOdB",
+	"icon": "",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Twilight",
+				"uiTheme": "vs-dark",
+				"path": "./themes/DarK Twilight-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "41e3f88e-2ebc-4e60-af25-9745433c7737",
+		"publisherDisplayName": "Mats Op de Beeck",
+		"publisherId": "5973145a-0fec-44ba-a16b-91109994676e"
+	}
+}
