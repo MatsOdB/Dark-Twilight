@@ -4,7 +4,7 @@
 	"description": "This is a beautiful syntax highlighting theme for vscode.",
 	"version": "0.0.1",
 	"publisher": "MatsOdB",
-	"icon": "https://github.com/MatsOdB/Dark-Twilight/blob/main/images/pluginIcon.png",
+	"icon": "images/pluginicon.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/MatsOdB/Dark-Twilight"
