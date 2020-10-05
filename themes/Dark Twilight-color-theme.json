@@ -367,7 +367,15 @@
     },
 
     // DART SPECIFIC
-
+    {
+      "name": "Default",
+      "scope": [
+        "source.dart"
+      ],
+      "settings": {
+        "foreground": "#B2B2B2",
+      }
+    },
     {
       "name": "Class",
       "scope": ["support.class.dart"],
