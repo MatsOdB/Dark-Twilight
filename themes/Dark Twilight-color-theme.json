@@ -252,6 +252,20 @@
         "foreground": "#FE9720"
       }
     },
+    {
+      "name": "Class component",
+      "scope": ["support.class.component.js"],
+      "settings": {
+        "foreground": "#ffd900",
+      }
+    },
+    {
+      "name": "Attribute name",
+      "scope": ["entity.other.attribute-name.js"],
+      "settings": {
+        "foreground": "#ffcbfb",
+      }
+    },
 
     // C++ SPECIFIC
 
