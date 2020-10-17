@@ -256,14 +256,14 @@
       "name": "Class component",
       "scope": ["support.class.component.js"],
       "settings": {
-        "foreground": "#ffd900",
+        "foreground": "#b1ffdb",
       }
     },
     {
-      "name": "Attribute name",
-      "scope": ["entity.other.attribute-name.js"],
+      "name": "Key",
+      "scope": ["meta.object-literal.key.js"],
       "settings": {
-        "foreground": "#ffcbfb",
+        "foreground": "#972162",
       }
     },
 
