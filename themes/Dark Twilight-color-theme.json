@@ -12,6 +12,7 @@
     "debugConsole.warningForeground": "#ffd000",
     "debugConsoleInputIcon.foreground": "#d181ff",
     "debugConsole.infoForeground": "#66d9ee",
+    "titleBar.activeBackground": "#33ACE8",
   },
   "tokenColors": [
     // GLOBAL
